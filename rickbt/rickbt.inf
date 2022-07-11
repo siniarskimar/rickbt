@@ -1,0 +1,27 @@
+[Defines]
+  INF_VERSION = 1.25
+  BASE_NAME = rickbt
+  FILE_GUID = 3d5c5b85-9c03-4f32-b87c-120137719a6e
+  MODULE_TYPE = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT = UefiEntry
+ 
+[Sources]
+  UefiMain.c
+ 
+[Packages]
+  MdePkg/MdePkg.dec
+ 
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+ 
+[Guids]
+ 
+[Ppis]
+ 
+[Protocols]
+ 
+[FeaturePcd]
+ 
+[Pcd]
